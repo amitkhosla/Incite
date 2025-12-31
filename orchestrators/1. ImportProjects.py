@@ -2,7 +2,7 @@
 import os
 import logging
 from extractor.parser import JavaExtractor
-from datastore.rawdatastore.postgresManager import PostgresDatastore
+from datastore.rawdatastore.postgres_manager import PostgresDatastore
 import configparser
 
 # Initialize the parser
