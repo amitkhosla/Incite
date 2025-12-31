@@ -14,7 +14,7 @@ project_root = os.path.dirname(current_dir)
 if project_root not in sys.path:
     sys.path.append(project_root)
 
-from datastore.rawdatastore.postgresManager import PostgresDatastore
+from datastore.rawdatastore.postgres_manager import PostgresDatastore
 from summarizer.analyzer import CodeAnalyzer
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
