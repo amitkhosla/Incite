@@ -13,7 +13,7 @@ project_root = os.path.dirname(os.path.dirname(os.path.dirname(current_file_path
 if project_root not in sys.path:
     sys.path.insert(0, project_root)
 
-from datastore.rawdatastore.postgresManager import PostgresDatastore
+from datastore.rawdatastore.postgres_manager import PostgresDatastore
 from datastore.sementicdatastore.pinecone_manager import PineconeDatastore
 from service.embedding_service import EmbeddingService
 
